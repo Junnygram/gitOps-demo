@@ -1,10 +1,8 @@
-Here's a professional and comprehensive `README.md` tailored for your infrastructure GitOps and deployment workflows using GitHub Actions, Terraform, AWS EKS, ECR, and Helm:
-
----
-
 # 🚀 Infrastructure GitOps on AWS with GitHub Actions
 
-This repository automates the provisioning, deployment, and teardown of AWS infrastructure and Kubernetes workloads using GitHub Actions, Terraform, Helm, and ECR.
+This repository automates the provisioning, deployment, and teardown of AWS infrastructure and Kubernetes workloads — including a Dockerized Next.js application — using GitHub Actions, Terraform, Helm, and ECR.
+
+It follows GitOps principles to manage infrastructure and CI/CD for your Next.js app running on an Amazon EKS cluster.
 
 ## 📦 Features
 
@@ -16,20 +14,6 @@ This repository automates the provisioning, deployment, and teardown of AWS infr
 - **Ingress Controller** setup on EKS
 - **Destruction Workflow** for resource cleanup
 - **Manual Trigger Support** for controlled infra teardown
-
----
-
-## 🗂️ Repository Structure
-
-```
-.
-├── terraform/          # Terraform configuration for AWS infrastructure (EKS, VPC, etc.)
-├── helm/               # Helm charts for Kubernetes app deployments
-├── app/                # Dockerized application source code
-├── .github/workflows/
-│   ├── infra.yml       # Provisions or destroys infrastructure on AWS
-│   └── deploy.yml      # Builds Docker image and deploys app to EKS
-```
 
 ---
 
@@ -118,5 +102,3 @@ This repository automates the provisioning, deployment, and teardown of AWS infr
 Website: [olaleye.com.ng](https://olaleye.com.ng)
 
 ---
-
-Would you like me to generate a badge-style header (e.g., GitHub Actions status, Terraform format, etc.) or a project logo?
